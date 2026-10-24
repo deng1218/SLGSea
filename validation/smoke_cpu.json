@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "input_size": 64,
+  "source": "synthetic",
+  "decoder_layers": 9,
+  "queries": 100,
+  "initialization": null,
+  "loss": 102.7590103149414,
+  "finite_nonzero_gradients": {
+    "text_projection.weight": 29.688884735107422,
+    "lsfg.output.weight": 115.19430541992188,
+    "sqc.mixing": 3.6107702255249023,
+    "sfma.modulation.2.weight": 155.54908752441406
+  },
+  "inference_ignores_image_specific_prompts_and_gt": true,
+  "inference_uses_fixed_language_field": true,
+  "seconds": 0.9175882339477539,
+  "smoke_loss_point_samples": 256
+}

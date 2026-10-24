@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "device": "cuda",
+  "input_size": 512,
+  "source": "one real training image",
+  "decoder_layers": 9,
+  "queries": 100,
+  "initialization": {
+    "loaded_tensors": 555,
+    "skipped_source_keys": [
+      "sem_seg_head.predictor.class_embed.weight",
+      "sem_seg_head.predictor.class_embed.bias",
+      "criterion.empty_weight"
+    ],
+    "visual_missing": [],
+    "legacy_key_migration": {
+      "sem_seg_head.predictor.static_query.weight": "sem_seg_head.predictor.query_feat.weight"
+    }
+  },
+  "loss": 49.66925811767578,
+  "finite_nonzero_gradients": {
+    "text_projection.weight": 26.33846092224121,
+    "lsfg.output.weight": 258.2353820800781,
+    "sqc.mixing": 0.6885930299758911,
+    "sfma.modulation.2.weight": 276.91314697265625
+  },
+  "inference_ignores_image_specific_prompts_and_gt": true,
+  "inference_uses_fixed_language_field": true,
+  "seconds": 1.8525960445404053,
+  "smoke_loss_point_samples": 256
+}

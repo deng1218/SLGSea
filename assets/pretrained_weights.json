@@ -1,0 +1,12 @@
+{
+  "coco_panoptic_r50": {
+    "url": "https://dl.fbaipublicfiles.com/maskformer/mask2former/coco/panoptic/maskformer2_R50_bs16_50ep/model_final_94dc52.pkl",
+    "sha256": "2968b3188e9ee51101de0da4345c2a910d4e6c26bbf06fe14c707721a18fa85e",
+    "filename": "coco_panoptic_r50.pkl"
+  },
+  "openai_clip_rn50": {
+    "url": "https://openaipublic.azureedge.net/clip/models/afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762/RN50.pt",
+    "sha256": "afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762",
+    "filename": "RN50.pt"
+  }
+}

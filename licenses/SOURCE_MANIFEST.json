@@ -1,0 +1,121 @@
+[
+  {
+    "file": "slgsea/vision/position_encoding.py",
+    "origin": "Mask2Former/mask2former/modeling/transformer_decoder/position_encoding.py",
+    "original_sha256": "d01a863b4db23c0a0afb6d7ed599c612dc5df43df3cde2f1577876b2616c2217",
+    "modified": false,
+    "packaged_sha256": "d01a863b4db23c0a0afb6d7ed599c612dc5df43df3cde2f1577876b2616c2217"
+  },
+  {
+    "file": "slgsea/vision/misc.py",
+    "origin": "Mask2Former/mask2former/utils/misc.py",
+    "original_sha256": "53fc8de4b8f5947fbba0f5a802219c0df1ca0b91133400b7da755cf6a328e672",
+    "modified": false,
+    "packaged_sha256": "53fc8de4b8f5947fbba0f5a802219c0df1ca0b91133400b7da755cf6a328e672"
+  },
+  {
+    "file": "slgsea/vision/criterion.py",
+    "origin": "Mask2Former/mask2former/modeling/criterion.py",
+    "original_sha256": "b80c583c1dcfc63f9fbdaea3d0509a7908d161fc348aefdbf6746ffff53a88da",
+    "modified": true,
+    "packaged_sha256": "7f37a6d4df34d422d669393376744275a2fc43f4a133e5bd94fd00f9c18e5dd5"
+  },
+  {
+    "file": "slgsea/vision/matcher.py",
+    "origin": "Mask2Former/mask2former/modeling/matcher.py",
+    "original_sha256": "3e291b1a04aec536a32c277668256749d99e5bfc66b89ef0cd8cd3942046d905",
+    "modified": false,
+    "packaged_sha256": "3e291b1a04aec536a32c277668256749d99e5bfc66b89ef0cd8cd3942046d905"
+  },
+  {
+    "file": "slgsea/vision/pixel_decoder.py",
+    "origin": "Mask2Former/mask2former/modeling/pixel_decoder/msdeformattn.py",
+    "original_sha256": "7c2a3210df9ec749284bf28e0266aa08671672bc0202489efa07d3cd120c9ca2",
+    "modified": true,
+    "packaged_sha256": "22babc841cd92598ddc76c43d6a3f3edfd88c9c2aac0cab3427c86e62b68cfc9"
+  },
+  {
+    "file": "slgsea/vision/attention.py",
+    "origin": "Mask2Former/mask2former/modeling/transformer_decoder/mask2former_transformer_decoder.py",
+    "original_sha256": "d7c15552c82fe7dddb442aeabdb869e76c3dee8f9b67ce1c23d059923e53dc3d",
+    "modified": true,
+    "packaged_sha256": "059425c842958679645be0010da4ec2d78344f96b9ab11e5bb1f37346ce09ac7"
+  },
+  {
+    "file": "slgsea/vision/deformable.py",
+    "origin": "Mask2Former/mask2former/modeling/pixel_decoder/ops/modules/ms_deform_attn.py",
+    "original_sha256": "e958c034cd2c2695a7141554760ba21ba472ad9a5e0f30f945634a81b91120f5",
+    "modified": true,
+    "packaged_sha256": "c90f8425744ae8111317119cfc22ddc7631ae6c1c9eb009955a06879ab9e4f52"
+  },
+  {
+    "file": "slgsea/vision/deformable_core.py",
+    "origin": "Mask2Former/mask2former/modeling/pixel_decoder/ops/functions/ms_deform_attn_func.py",
+    "original_sha256": "cf206cc3c80e07ae71957ee5d3001a5179edf3139efa1e649362593cb1673730",
+    "modified": true,
+    "packaged_sha256": "ec32c2acc6ecf549bf3dea29dff43fc54b83c3a1919ed7ac43860b0c59565b57"
+  },
+  {
+    "file": "slgsea/language/tokenizer.py",
+    "origin": "installed-package/clip/simple_tokenizer.py",
+    "original_sha256": "acf0cda10cad73193af7a0d7184364cca3139b7de464f163fd4953bf2648c608",
+    "modified": false,
+    "packaged_sha256": "acf0cda10cad73193af7a0d7184364cca3139b7de464f163fd4953bf2648c608"
+  },
+  {
+    "file": "slgsea/language/bpe_simple_vocab_16e6.txt.gz",
+    "origin": "installed-package/clip/bpe_simple_vocab_16e6.txt.gz",
+    "original_sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+    "modified": false,
+    "packaged_sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+  },
+  {
+    "file": "slgsea/panoptic/evaluation.py",
+    "origin": "installed-package/panopticapi/evaluation.py",
+    "original_sha256": "5e3ee841ac5ecb1f50bc5120b4fb06e552305f5e8202e13d0e22ada9885a62a8",
+    "modified": true,
+    "packaged_sha256": "4ee56245c76ceeb758f4a7202e72b67058a6413d9c3e54ab9b4bc0857582a239"
+  },
+  {
+    "file": "slgsea/panoptic/utils.py",
+    "origin": "installed-package/panopticapi/utils.py",
+    "original_sha256": "826f4d4c5a54fdb64bc1edd1d9e6b508249649716457df96db09b7d23b85a27a",
+    "modified": true,
+    "packaged_sha256": "8dc01eb93184dedfefb63b9fdc59da4cef28fe1fd6244b80cc8061c350121e96"
+  },
+  {
+    "file": "licenses/Mask2Former-MIT.txt",
+    "origin": "reconstruction-input/recovered_code/Mask2Former/LICENSE",
+    "original_sha256": "99566a874d9decd98dc3cea026c314ad255d8798d7d51e121fe1413f4d2750bb",
+    "modified": false,
+    "packaged_sha256": "99566a874d9decd98dc3cea026c314ad255d8798d7d51e121fe1413f4d2750bb"
+  },
+  {
+    "file": "licenses/CLIP-MIT.txt",
+    "origin": "installed-package/clip-1.0.dist-info/licenses/LICENSE",
+    "original_sha256": "d860b08e3ac59e475d0bcd14c4787494ddc0e385cddd81c47acbbbbd7ed6cb98",
+    "modified": false,
+    "packaged_sha256": "d860b08e3ac59e475d0bcd14c4787494ddc0e385cddd81c47acbbbbd7ed6cb98"
+  },
+  {
+    "file": "prompts/templates.json",
+    "origin": "reconstruction-input/prompts/templates.json",
+    "original_sha256": "1c5d6b02df32569eda084e4c1b6655da5db9c7fa0cf07134f3418e6fdc8c45fa",
+    "modified": true,
+    "packaged_sha256": "7ad52a367b63326f3ff646819510e9b24b77ef9cc2bbfe71d6f3ddc90776a182"
+  },
+  {
+    "file": "slgsea/semantic.py",
+    "origin": "reconstruction-input/reference/paper_modules.py",
+    "original_sha256": "9220be477dbce647d9eaf0316a02186ef4378b106b99e5c6bf25ddf4977da31e",
+    "modified": true,
+    "packaged_sha256": "6396c4ea5875ee98ec43a98939ce9dc583d3977426306ec7910652de26bd1c9f"
+  },
+  {
+    "file": "slgsea/language/transformer.py",
+    "origin": "OpenAI-CLIP/clip/model.py",
+    "original_sha256": "dc4981bbd17867430890cfe711bb813466232f3b19c5753e26de0b7b047b0926",
+    "modified": true,
+    "packaged_sha256": "b9ffaef2c9d7058e971e8abe303f96081134a917fa58953ad591ec83b75925ab"
+  }
+]

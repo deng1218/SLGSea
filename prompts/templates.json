@@ -1,0 +1,57 @@
+{
+  "version": "slgsea-prompts-v1",
+  "class_order": [
+    "ship",
+    "sea",
+    "land"
+  ],
+  "attribute_order": [
+    "scale",
+    "topology",
+    "scattering"
+  ],
+  "integrated_templates": {
+    "ship": "{scale} ships are {topology}, with {scattering} around ship targets.",
+    "sea": "Sea regions are {scale} and show {topology}, with {scattering} on the sea surface.",
+    "land": "Land regions are {scale} and show {topology}, with {scattering} over land areas."
+  },
+  "attribute_templates": {
+    "ship": {
+      "scale": "Ship scale: {value} ships.",
+      "topology": "Ship topology: ships are {value}.",
+      "scattering": "Ship scattering: {value} around ship targets."
+    },
+    "sea": {
+      "scale": "Sea scale: {value} sea regions.",
+      "topology": "Sea topology: {value}.",
+      "scattering": "Sea scattering: {value} on the sea surface."
+    },
+    "land": {
+      "scale": "Land scale: {value} land regions.",
+      "topology": "Land topology: {value}.",
+      "scattering": "Land scattering: {value} over land areas."
+    }
+  },
+  "fixed_inference_descriptors": {
+    "ship": {
+      "scale": "few or many small, large, or mixed-size",
+      "topology": "distributed near the shoreline or offshore in isolated or clustered groups",
+      "scattering": "variable scattering interference"
+    },
+    "sea": {
+      "scale": "variable in spatial extent",
+      "topology": "open-sea or sea-land configurations",
+      "scattering": "variable backscatter"
+    },
+    "land": {
+      "scale": "variable in spatial extent",
+      "topology": "ship-free, ship-distant, or ship-adjacent structures",
+      "scattering": "structural textures and bright scatterers"
+    }
+  },
+  "sqc_reference_prompts": [
+    "compact strong-response SAR scattering centers for ship-like targets",
+    "surface clutter and sea backscatter responses in SAR imagery",
+    "structural texture and bright-scatter patterns from land regions"
+  ]
+}

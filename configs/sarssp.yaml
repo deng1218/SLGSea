@@ -1,0 +1,4 @@
+_BASE_: base.yaml
+dataset: SAR-SSP
+data_root: datasets/SAR-SSP
+output_dir: outputs/sarssp

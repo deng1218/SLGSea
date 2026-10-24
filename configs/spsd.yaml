@@ -1,0 +1,4 @@
+_BASE_: base.yaml
+dataset: SPSD
+data_root: datasets/SPSD
+output_dir: outputs/spsd

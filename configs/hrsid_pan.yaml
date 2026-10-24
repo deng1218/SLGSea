@@ -1,0 +1,6 @@
+_BASE_: base.yaml
+dataset: HRSID-PAN
+data_root: datasets/HRSID-PAN
+output_dir: outputs/hrsid_pan
+solver:
+  iterations: 21000

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-24",
+  "status": "passed",
+  "environment": {
+    "python": "3.9.25",
+    "platform": "Windows build 26200",
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "detectron2": "0.6",
+    "gpu": "NVIDIA GeForce RTX 5090"
+  },
+  "training": {
+    "dataset": "SAR-SSP",
+    "input_size": 512,
+    "batch_size": 8,
+    "point_samples": 12544,
+    "amp_dtype": "bfloat16",
+    "successful_updates": 2,
+    "resume": "Saved after update 1; restored checkpoint and performed update 2.",
+    "losses": [
+      38.676246643066406,
+      27.81437110900879
+    ],
+    "final_checkpoint_created": false
+  },
+  "evaluation": {
+    "status": "passed",
+    "images": 2,
+    "complete_validation": false,
+    "checkpoint_update": 1,
+    "all_metrics_zero": true
+  },
+  "prediction": {
+    "status": "passed",
+    "device": "cpu",
+    "checkpoint_update": 2,
+    "images": 1,
+    "outputs": [
+      "panoptic.png",
+      "segments.json",
+      "preview.png"
+    ]
+  },
+  "contract_tests": {
+    "passed": 3,
+    "checks": [
+      "authentic cache and template validation",
+      "resume batch sequence",
+      "perfect prediction with nonstandard category IDs: all nine metrics 100"
+    ]
+  }
+}
