@@ -1,0 +1,110 @@
+labels:
+  ship:
+    id: ship target
+    scale:
+      none: none
+      few: few
+      medium: medium
+      many: many
+    size_composition:
+      none: none
+      mostly_small: mostly-small
+      mixed_size: mixed-size
+      mostly_large: mostly-large
+    topology:
+      no_ship: no-ship
+      nearshore: nearshore
+      offshore: offshore
+    density:
+      absent: no-ship
+      isolated: isolated
+      moderate: moderate
+      clustered: clustered
+    state:
+      absent: no-ship
+      low: low interference
+      medium: medium interference
+      high: high interference
+  sea:
+    id: sea region
+    scale:
+      dominant: sea-dominant
+      balanced: balanced
+      limited: sea-limited
+      absent: no-sea
+    topology:
+      open: open sea
+      with_land: sea with land
+      absent: no-sea
+    state:
+      absent: no-sea
+      calm: calm
+      moderate: moderate
+      rough: rough
+      unknown: unknown
+  land:
+    id: land region
+    scale:
+      dominant: land-dominant
+      balanced: balanced
+      limited: land-limited
+      absent: no-land
+    topology:
+      no_land: no-land
+      shoreline: shoreline
+      island_like: island-like
+      continuous_land: continuous-land
+    ship_relation:
+      absent: no-land
+      ship_adjacent: ship-adjacent
+      ship_distant: ship-distant
+      ship_free: ship-free
+    state:
+      sparse_bright: sparse-bright
+      dense_bright: dense-bright
+      clustered_bright: clustered-bright
+      absent: no-land
+thresholds:
+  sea_ratio:
+    dominant_min: 0.7
+    balanced_min: 0.3
+  land_ratio:
+    dominant_min: 0.7
+    balanced_min: 0.3
+  ship_count:
+    few_max: 1
+    medium_max: 5
+  ship_area_px:
+    small_max: 128
+    medium_max: 512
+    dominant_fraction_min: 0.6
+  ship_density_mean_nn_px:
+    clustered_max: 40.0
+    moderate_max: 120.0
+  proximity:
+    nearshore_radius_px: 24
+    ship_land_adjacent_radius_px: 24
+    ship_context_radius_px: 12
+  interference:
+    bright_threshold: 210
+    bright_ratio_medium: 0.02
+    bright_ratio_high: 0.06
+    nearshore_ratio_medium: 0.34
+    nearshore_ratio_high: 0.67
+  sea_state_mapping:
+    calm:
+    - 0
+    - 1
+    moderate:
+    - 2
+    rough:
+    - 3
+    - 4
+  sea_state_inference:
+    span_weight: 0.35
+    calm_score_max: 14.0
+    moderate_score_max: 26.0
+  land_bright:
+    bright_threshold: 210
+    sparse_ratio_max: 0.01
+    clustered_bbox_density_min: 0.25

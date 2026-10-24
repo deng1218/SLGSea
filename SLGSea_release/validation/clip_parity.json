@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "compared_to": "installed official OpenAI CLIP model, same RN50 state tensors and original QuickGELU",
+  "texts_checked": 12,
+  "max_abs_difference": 0.0
+}
